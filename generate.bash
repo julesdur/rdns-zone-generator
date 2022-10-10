@@ -9,6 +9,6 @@ n=1
 
 while [ $n -le 254 ]
 do
-        echo "$n     IN PTR          $subnet.$n.$domain." >> reverses.out
+        echo "$n     IN PTR          $subnet.$n.$domain." >> result.txt
         n=`expr $n + 1`
 done
